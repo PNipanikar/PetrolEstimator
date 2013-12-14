@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Filetry!</string>
+     <string name="goLabel">Go</string>
+      <string name="trackLabel">Track Present Location</string>
+    <string name="app_name">Filetry</string>
+    <string name="add">ADD</string>
+    <string name="avg">Average</string>
+    <string name="veh_name">Vehicle_name</string>
+    <string name="petrol_q">petrol_quantity</string>
+    <string name="From">From</string>
+    <string name="To">To</string>
+    <string name="Estimate">Estimate</string>
+    <string name="Entry">Entry</string>
+    <string name="Show">Availibility</string>
+    <string name="Add_petrol">Add Petrol</string>
+    <string name="average">Average</string>
+    <string name="Add">Add</string>
+    <string name="show_map">Show Map</string>
+    <string name="sorry">Sorry , you dont have enough petrol</string>
+    <string name="success1">You can reach the destination</string>
+    <string name="succeed">Do you want to go there ?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+</resources>

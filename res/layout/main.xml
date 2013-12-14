@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+     android:background="@drawable/pumps" >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_x="81dp"
+        android:layout_y="198dp"
+        android:text="@string/Show"
+        android:background="#ffffff" />
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_x="76dp"
+        android:layout_y="84dp"
+        android:background="#ffffff"
+        android:text="@string/Entry" />
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_x="82dp"
+        android:layout_y="317dp"
+        android:background="#ffffff"
+        android:text="@string/Add_petrol" />
+</AbsoluteLayout>

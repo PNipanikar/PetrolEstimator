@@ -1,0 +1,40 @@
+package com.adtl;
+
+
+import java.io.*;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.*;
+import android.view.View.OnClickListener;
+import android.widget.*;
+
+public class Fail extends Activity {
+
+	Button e1,e2;
+	
+public void onCreate(Bundle savedInstanceState) {
+	super.onCreate(savedInstanceState);
+	setContentView(R.layout.no);
+	e1= (Button) findViewById(R.id.b1);
+	e2=(Button)findViewById(R.id.exit);
+	//e3= (EditText) findViewById(R.id.pq);
+	e1.setOnClickListener(new OnClickListener() {
+	public void onClick(View v) {
+		Intent myIntent = new Intent(v.getContext(),MapViewDemoActivity.class);
+        startActivityForResult(myIntent, 0);
+	}
+	});
+	
+	e2.setOnClickListener(new OnClickListener() {
+		public void onClick(View v) {
+			finish();
+		}
+		});
+}
+
+}
+
+
+

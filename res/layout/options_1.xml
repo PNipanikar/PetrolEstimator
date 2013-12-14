@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+     android:background="@drawable/pumps" >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+
+    <Button
+        android:id="@+id/b1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_x="56dp"
+        android:layout_y="68dp"
+        android:text="Show Nearest ATM's" />
+
+    <Button
+        android:id="@+id/b3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_x="56dp"
+        android:layout_y="270dp"
+        android:text="Show Nearest Hospitals" />
+
+    <Button
+        android:id="@+id/b2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_x="52dp"
+        android:layout_y="172dp"
+        android:text="Show Nearest Hotels" />
+
+</AbsoluteLayout>

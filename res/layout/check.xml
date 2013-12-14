@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:padding="10dip"
+      android:background="@drawable/pumps">
+            <Button
+                android:id="@+id/presentLocation_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="64dp"
+                android:layout_y="32dp"
+                android:text="@string/trackLabel" />
+            <Button
+                android:id="@+id/geocode_button"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_x="106dp"
+                android:layout_y="336dp"
+                android:text="@string/goLabel" />
+            <EditText
+                android:id="@+id/eT1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_x="9dp"
+                android:layout_y="217dp"
+                android:ems="10" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/geocode_input"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:layout_x="12dp"
+                android:layout_y="157dp"
+                android:ems="10"
+                android:hint="(Place name)"
+                android:inputType="text"
+                android:lines="1" />
+
+</AbsoluteLayout>
